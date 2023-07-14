@@ -1,0 +1,12 @@
+# Built artifacts
+node_modules
+dist
+
+# Env
+.env*
+
+# IDE
+.vscode
+
+# Log
+yarn-error.log
