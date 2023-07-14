@@ -16,6 +16,7 @@ import { AppService }                  from './app.service';
         store: redisStore as unknown as CacheStore,
         host: configService.get(`${REDIS}.host`, { infer: true }),
         port: configService.get(`${REDIS}.port`, { infer: true }),
+        ttl: configService.get(`${REDIS}.ttl`, { infer: true }),
       }),
     }),
   ],
